@@ -1,2 +1,2 @@
-# Data_Vizualization
+# Data_Visualization
 UCSD Data Science Bootcamp
