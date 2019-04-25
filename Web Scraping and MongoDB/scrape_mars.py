@@ -15,7 +15,7 @@ def init_browser():
     #Windows Users
     # executable_path = {'executable_path': '/Users/cantu/Desktop/Mission-to-Mars'}
     # return Browser('chrome', **executable_path, headless=False)
-    exec_path = {'executable_path': '/app/.chromedriver/bin/chromedriver'}
+    exec_path = {'executable_path': "C:\Windows\chromedriver\chromedriver.exe"}
     return Browser('chrome', headless=True, **exec_path)
 
 # Create Mission to Mars global dictionary that can be imported into Mongo
